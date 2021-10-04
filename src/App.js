@@ -12,6 +12,9 @@ import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import AllCourses from './components/AllCourses/AllCourses';
 import About from './components/About/About';
+import Admission from './components/Admission/Admission';
+import Contact from './components/Contact/Contact';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -27,9 +30,18 @@ function App() {
       <Route path="/courses">
         <AllCourses />
       </Route>
+      <Route path="/admission">
+        <Admission />
+      </Route>
       <Route path="/about">
         <About />
       </Route>
+      <Route path="/contact">
+        <Contact />
+      </Route>
+      <Router path="*">
+        <NotFound />
+      </Router>
     </Switch>
     <Footer />
    </Router>

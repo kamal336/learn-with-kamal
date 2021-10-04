@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <Navbar bg="light" expand="lg" fixed="top">
         <Container>
-          <Navbar.Brand >Learn With Kamal</Navbar.Brand>
+          <Navbar.Brand><h3 className="text-success border rounded p-2 fw-bold">Learn With Kamal</h3></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

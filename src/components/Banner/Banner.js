@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <Container>
            <Row>
-           <div className="banner-container">
+           <div className="banner-container top-margin">
                <div className="banner">
                    <h1 className="banner-title">Complete Web Development  Learn With Kamal</h1>
                    <p className="banner-text">We learn very carefully and comprehensive way. It may be your passionate course.</p>

@@ -4,6 +4,7 @@ import useCourses from '../../hooks/useCourses';
 import TopCourse from '../TopCourse/TopCourse';
 
 const TopCourses = () => {
+      // use hook
     const [courses] = useCourses(); 
     
     const topCourses = courses.slice(0,4);

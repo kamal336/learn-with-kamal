@@ -5,11 +5,12 @@ import useCourses from './../../hooks/useCourses';
 
 
 const AllCourses = () => {
+    // use hook
     const [courses] = useCourses();
     console.log(courses);
     return (
         <Container>
-            <Row>
+            <Row className="top-margin">
                 {
                    courses.map(course=> <AllCoursce 
                     course={course}
