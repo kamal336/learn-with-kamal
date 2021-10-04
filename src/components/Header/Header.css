@@ -1,0 +1,15 @@
+.navbar{
+    background-color: black;
+}
+
+.navlink{
+    color: rgb(73, 69, 61);
+    text-decoration: none;
+    padding: 10px 25px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.navlink:hover{
+    background-color: peachpuff;
+}
