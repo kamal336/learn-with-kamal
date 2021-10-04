@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import AllCourses from './components/AllCourses/AllCourses';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
       </Route>
       <Route path="/courses">
         <AllCourses />
+      </Route>
+      <Route path="/about">
+        <About />
       </Route>
     </Switch>
     <Footer />
