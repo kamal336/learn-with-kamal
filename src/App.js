@@ -9,6 +9,8 @@ import {
 import Header from './components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
+import AllCourses from './components/AllCourses/AllCourses';
 
 function App() {
   return (
@@ -18,7 +20,14 @@ function App() {
       <Route exact path="/">
          <Home />
       </Route>
+      <Route path="/home">
+        <Home />
+      </Route>
+      <Route path="/courses">
+        <AllCourses />
+      </Route>
     </Switch>
+    <Footer />
    </Router>
   );
 }

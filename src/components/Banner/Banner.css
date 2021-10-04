@@ -1,0 +1,22 @@
+.banner-container{
+    background-image: url("https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/programming%20evolution.jpg?itok=WTj9-yNz");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.banner{
+    padding:130px 130px;
+    color: rgb(237, 245, 202);
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.banner-text{
+    font-size: 20px;
+    font-weight: 500;
+}
