@@ -6,7 +6,7 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <Container fluid className="footer bg-secondary text-white text-center p-5">
+        <Container fluid className="footer bg-secondary text-white text-center p-4">
            <Row className="d-flex align-items-center">
             <Col>
             <div>
@@ -18,15 +18,15 @@ const Footer = () => {
             </div>
             </Col>
             <Col>
-            <h3>Home</h3>
+            <h4>Home</h4>
             <p>All Courses</p>
             <p>Admission</p>
             <p>About Us</p>
             <p>Contact</p>
             </Col>
             <Col>
-            <h1>Learn With Kamal</h1>
-            <p>Copyright &copy; Akter Kamal.<br/> Passionate Web Developer & Web Learner</p>
+            <h2>Learn With Kamal</h2>
+            <p>Copyright &copy; Akter Kamal.<br/> Passionate Web Developer & Web Learner.</p>
             </Col>
   </Row>
 </Container>
